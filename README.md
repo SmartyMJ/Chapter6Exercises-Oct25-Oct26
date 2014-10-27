@@ -5,7 +5,7 @@ Original + Continued (Completed Oct23 + Oct24)
 
 The original exercises and the continued exercises. I originally tried to create a repository on my computer with just a .txt file, but it did not sync correctly. So I'm putting this one up.
 
-Six. 
+SIX. 
 
     a) 0; it truncates to zero because they are both integers.
 
@@ -18,29 +18,29 @@ Six.
     e) 3; the modulo function returns the remainder.
 
 
-Seven. 
+SEVEN. 
 
        a) 105; the function has a value of 105.8, but the int cast truncates it to 105.
 
        b) 19.0; both of the variables are integers, so the function truncates the result (19.6) to an integer (19) before making it a double (19.0).
 
 
-Eight.
+EIGHT.
 
 count += (total/pages - 5) * words - 1; I used the order of operations. I could remove four parentheses (two pairs).
 
 
-Nine.
+NINE.
 
 The console prints out "The travel distsnce is 0" because "1/2" truncates to 0. Change either the 1, the 2, or both to       a double (1.0 / 2, 1 / 2.0, or 1.0 / 2.0) to print out the correct result.
 
 
-Twelve.
+TWELVE.
 
 temp should be declared as a double, not an int. If it is declared as an int, one number will be truncated towards 		zero.
 
 
-Thirteen.
+THIRTEEN.
 	
 	int n;
 		
@@ -51,7 +51,7 @@ Thirteen.
 	System.out.println( (hundreds * 100) + (ones * 10) + (tens * 1) );
 
 
-Fourteen.   
+FOURTEEN.   
 
 	    int dayOfWeek1; // 0=Sunday, 1=Monday, etc.
 	    int day; // from 1 to 31, represents a day in january
@@ -60,14 +60,14 @@ Fourteen.
 	    System.out.println((test + dayOfWeek1) % 7); //what day of the week "int day" falls on
 
 
-Fifteen.    
+FIFTEEN.    
 
 	int remainingMinutes = depHour * 60 + depMin - curHour * 60 - curMin; //time has to be in military time for this to work (i.e. 11:30pm = 11:30 and 1:15pm = 13:15)
 
 	System.out.println((remainingMinutes / 60) + " hours and " + (remaingMinutes % 60) + " minutes.");
 
 
-Sixteen.  
+SIXTEEN.  
 
 	  double meters = inches * 0.0254;
   	  double kilograms = lbs * 0.454;
