@@ -25,13 +25,19 @@ Seven.
        b) 19.0; both of the variables are integers, so the function truncates the result (19.6) to an integer (19) before making it a double (19.0).
 
 
-Eight. count += (total/pages - 5) * words - 1; I used the order of operations. I could remove four parentheses (two pairs).
+Eight.
+
+count += (total/pages - 5) * words - 1; I used the order of operations. I could remove four parentheses (two pairs).
 
 
-Nine. The console prints out "The travel distsnce is 0" because "1/2" truncates to 0. Change either the 1, the 2, or both to       a double (1.0 / 2, 1 / 2.0, or 1.0 / 2.0) to print out the correct result.
+Nine.
+
+The console prints out "The travel distsnce is 0" because "1/2" truncates to 0. Change either the 1, the 2, or both to       a double (1.0 / 2, 1 / 2.0, or 1.0 / 2.0) to print out the correct result.
 
 
-Twelve. temp should be declared as a double, not an int. If it is declared as an int, one number will be truncated towards 		zero.
+Twelve.
+
+temp should be declared as a double, not an int. If it is declared as an int, one number will be truncated towards 		zero.
 
 
 Thirteen.
