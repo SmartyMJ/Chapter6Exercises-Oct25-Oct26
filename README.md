@@ -31,6 +31,7 @@ Twelve. temp should be declared as a double, not an int. If it is declared as an
 
 
 Thirteen.
+	
 	int n;
 		
 	int hundreds = n / 100;     //number of hundreds that fit
@@ -40,19 +41,25 @@ Thirteen.
 	System.out.println( (hundreds * 100) + (ones * 10) + (tens * 1) );
 
 
-Fourteen.   int dayOfWeek1; // 0=Sunday, 1=Monday, etc.
+Fourteen.   
+
+	    int dayOfWeek1; // 0=Sunday, 1=Monday, etc.
 	    int day; // from 1 to 31, represents a day in january
 				
 	    int test = (day - 1) % 7 ;
 	    System.out.println((test + dayOfWeek1) % 7); //what day of the week "int day" falls on
 
 
-Fifteen.    int remainingMinutes = depHour * 60 + depMin - curHour * 60 - curMin; //time has to be in military time for this to work (i.e. 11:30pm = 11:30 and 1:15pm = 13:15)
+Fifteen.    
+
+	int remainingMinutes = depHour * 60 + depMin - curHour * 60 - curMin; //time has to be in military time for this to work (i.e. 11:30pm = 11:30 and 1:15pm = 13:15)
 
 	System.out.println((remainingMinutes / 60) + " hours and " + (remaingMinutes % 60) + " minutes.");
 
 
-Sixteen.  double meters = inches * 0.0254;
+Sixteen.  
+
+	  double meters = inches * 0.0254;
   	  double kilograms = lbs * 0.454;
   
   	  return kilograms/(meters * meters); //the block of code that should be added
