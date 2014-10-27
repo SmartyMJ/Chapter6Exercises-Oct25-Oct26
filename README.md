@@ -5,7 +5,8 @@ Original + Continued (Completed Oct23 + Oct24)
 
 The original exercises and the continued exercises. I originally tried to create a repository on my computer with just a .txt file, but it did not sync correctly. So I'm putting this one up.
 
-Six. a) 0; it truncates to zero because they are both integers.
+Six. 
+    a) 0; it truncates to zero because they are both integers.
 
     b) 0; it truncates to zero because there is division of two integers.
     
@@ -16,9 +17,11 @@ Six. a) 0; it truncates to zero because they are both integers.
     e) 3; the modulo function returns the remainder.
 
 
-Seven. a) 105; the function has a value of 105.8, but the int cast truncates it to 105.
+Seven. 
 
-       b) 19.0; both of the variables are integers, so the function truncates the result (19.6) to an integer (19) before    	  making it a double (19.0).
+       a) 105; the function has a value of 105.8, but the int cast truncates it to 105.
+
+       b) 19.0; both of the variables are integers, so the function truncates the result (19.6) to an integer (19) before making it a double (19.0).
 
 
 Eight. count += (total/pages - 5) * words - 1; I used the order of operations. I could remove four parentheses (two pairs).
